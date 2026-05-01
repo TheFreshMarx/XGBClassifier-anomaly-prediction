@@ -13,7 +13,7 @@ In the first part of the script 'ai prediction xgboost.ipynb', you will find the
 
 After uploading the dataset and training the model, you will have to fine tune the model to your specific case, meaning that you will have to try different numbers on the parameters of the model until it reaches the accuracy that you need. 
 
-I will also upload the original dataset to try and test it for yourself. 
+I will also upload the original dataset to try and test it for yourself. I will upload the ai dataset already processed and the GDELT and wikiviews dataset before processed. 
 
 ## Information Anomaly Detection Pipeline
 
