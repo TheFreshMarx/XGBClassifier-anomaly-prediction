@@ -2,7 +2,14 @@
 A machine learning model that it's trained on a specific topic to create a signal that predicts if in 2 days in the future an anomaly on the time series will happen.
 
 ## HOW TO USE
-In the first part of the script 'ai prediction xgboost.ipynb', you will find the part where the dataset AI_prediction.csv is uploaded. You should change the code to upload your own dataset cleaned using ----. If you want to change the name of the variables keep an eye on changing all the name in the file!.
+In the first part of the script 'ai prediction xgboost.ipynb', you will find the part where the dataset AI_prediction.csv is uploaded. You should change the code to upload your own dataset cleaned using 'Data cleaning.ipynb'. If you want to change the name of the variables keep an eye on changing all the name in the file!.
+
+1. Take the dataset from GDELT (each keyword will have its own csv file)
+2. Take the dataset from wikiviews
+3. Use the 'Data cleaning.ipynb'
+4. Use then the 'ai prediction xgboost.ipynb'
+5. Fine tune the model
+6. See the result
 
 After uploading the dataset and training the model, you will have to fine tune the model to your specific case, meaning that you will have to try different numbers on the parameters of the model until it reaches the accuracy that you need. 
 
